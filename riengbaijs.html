@@ -16,5 +16,21 @@
     <div id="color">
         <h1 style="text-align: center;">Một cái thẻ div uwu</h1>
     </div>
+    <button onclick="findEven()">Click here</button>
+    <script>
+        function findEven(){
+    var a = prompt("nhập a trong khoảng 4- 20")
+    if ( a < 4 || a > 20 ){
+        alert('try again')
+    }
+    else {
+        for ( let b = 4; b <= a; b++){
+            if ( b % 2 === 0){
+                console.log(b)
+            }
+        }
+    }
+}
+    </script>
 </body>
 </html>
